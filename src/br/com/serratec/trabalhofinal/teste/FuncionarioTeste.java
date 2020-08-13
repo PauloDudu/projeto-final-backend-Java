@@ -16,7 +16,7 @@ public class FuncionarioTeste {
 				Set <Funcionario> Func = new HashSet<Funcionario>();
 				
 		try {		
-				JOptionPane.showMessageDialog(null, "Bem vindo ao sistema de folha de pagamento !","Ol�",JOptionPane.INFORMATION_MESSAGE);
+				JOptionPane.showMessageDialog(null, "Bem vindo ao sistema de folha de pagamento !","Olá",JOptionPane.INFORMATION_MESSAGE);
 				file = JOptionPane.showInputDialog("Digite o caminho do arquivo de entrada","C:\\");
 			
 				BufferedReader reader = new BufferedReader(new FileReader(file));
